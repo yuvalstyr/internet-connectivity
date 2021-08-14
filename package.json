@@ -1,0 +1,39 @@
+{
+  "name": "internet-connectivity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:global": "tsc && npm i -g",
+    "build:local": "npm i && tsc && npm i -g",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvalstyr/internet-connectivity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuvalstyr/internet-connectivity/issues"
+  },
+  "homepage": "https://github.com/yuvalstyr/internet-connectivity#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "conf": "^10.0.2",
+    "got": "^11.8.2",
+    "yargs": "^17.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "@types/yargs": "^17.0.2",
+    "pkg": "^5.3.1",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "bin": {
+    "conn-check": "./build/cli.js"
+  }
+}

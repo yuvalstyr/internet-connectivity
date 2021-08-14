@@ -1,0 +1,9 @@
+{
+  "tests": [
+    { "protocol": "HTTP", "url": "http://www.google.com", "threshold": 10 },
+    { "protocol": "HTTP", "url": "http://www.google.com", "threshold": 100 },
+    { "protocol": "DNS", "url": "192.12.12.12" }
+  ],
+  "logFileDir": "logs",
+  "logFileName": "logs.json"
+}
