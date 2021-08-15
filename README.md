@@ -39,9 +39,15 @@ sudo npm run build:global
 
 ### running all test on config file
 
+- config file will be a JSON file in the src/config directory
+
 ```
  ❯ conn-check  runConfigFile
     http://www.google.com- latency test failed due to threshold constraint threshold was 10, test latency was 8279ms Vs. previous latency 191ms
     http://www.google.com- latency test failed due to threshold constraint threshold was 100, test latency was 8300ms Vs. previous latency 191ms
     192.12.12.12- Successfully resolved the DNS lookup
 ```
+
+### logs
+
+- logs file will be a JSON file in the src/logs directory
