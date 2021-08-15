@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "build:global": "npm i && tsc && npm i -g",
     "build:local": "npm i && tsc",
     "dev": "ts-node src/index.ts"

@@ -2,7 +2,8 @@
 ## 
 ## 🚀 Usage
 
-Make sure you have [npm](https://www.npmjs.com/) installed
+Make sure you have [npm 14](https://www.npmjs.com/) installed you can follow the steps in :
+(https://heynode.com/tutorial/install-nodejs-locally-nvm/)
 Just run the following command at the root of your project:
 
 ```sh
@@ -11,7 +12,7 @@ sudo npm run build:global
 
 ## And then you can run the CLI commends:
 
-### Get All the commends
+### Get All commands
 
 ```sh
     ❯ conn-check -h
@@ -42,5 +43,3 @@ sudo npm run build:global
     http://www.google.com- latency test failed due to threshold constraint threshold was 100, test latency was 8300ms Vs. previous latency 191ms
     192.12.12.12- Successfully resolved the DNS lookup
 ```
-
-### running all test on config file
