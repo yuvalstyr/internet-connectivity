@@ -2,6 +2,8 @@
 ## 
 ## 🚀 Usage
 
+### prerequisite
+
 Make sure you have [npm 14](https://www.npmjs.com/) installed you can follow the steps in :
 (https://heynode.com/tutorial/install-nodejs-locally-nvm/)<br/>
 Just run the following command at the root of your project:
@@ -10,7 +12,7 @@ Just run the following command at the root of your project:
 sudo npm run build:global
 ```
 
-## And then you can run the CLI commends:
+## And then you can run the CLI commands:
 
 ### Get All commands
 
@@ -28,7 +30,7 @@ sudo npm run build:global
     -h, --help     Show help                                             [boolean]
 ```
 
-### For example: run http commend
+### For example: run http command
 
 ```
     ❯ conn-check http http://www.google.com --threshold 1
