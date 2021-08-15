@@ -27,7 +27,8 @@ export class HttpTest extends BaseTest {
   async HttpCallLatencyChecker() {
     const { logger, protocol, url, threshold } = this
     try {
-      const latencyTime = (await this._getHttpCallLatency()) ?? 0
+      const latencyTimeResponse = await this._getHttpCallLatency()
+      const latencyTime = !latencyTimeResponse ? 0 : latencyTimeResponse
 
       const logs = this.logger.getLogObj()
       const httpLogs = logs.filter(

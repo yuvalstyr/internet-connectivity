@@ -28,7 +28,7 @@ export const handler = async (argv: Arguments<Options>) => {
           const httpTest = new HttpTest({
             protocol,
             url,
-            threshold: threshold ?? 0,
+            threshold: !threshold ? 0 : threshold,
           })
           await httpTest.HttpCallLatencyChecker()
 

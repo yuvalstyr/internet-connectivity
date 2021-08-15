@@ -6,7 +6,7 @@ Make sure you have [npm](https://www.npmjs.com/) installed
 Just run the following command at the root of your project:
 
 ```sh
-npm run build:global
+sudo npm run build:global
 ```
 
 ## And then you can run the CLI commends:
@@ -42,3 +42,5 @@ npm run build:global
     http://www.google.com- latency test failed due to threshold constraint threshold was 100, test latency was 8300ms Vs. previous latency 191ms
     192.12.12.12- Successfully resolved the DNS lookup
 ```
+
+### running all test on config file
