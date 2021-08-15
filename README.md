@@ -3,7 +3,7 @@
 ## 🚀 Usage
 
 Make sure you have [npm 14](https://www.npmjs.com/) installed you can follow the steps in :
-(https://heynode.com/tutorial/install-nodejs-locally-nvm/)
+(https://heynode.com/tutorial/install-nodejs-locally-nvm/)<br/>
 Just run the following command at the root of your project:
 
 ```sh
