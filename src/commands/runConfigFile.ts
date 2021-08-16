@@ -40,6 +40,7 @@ export const handler = async (argv: Arguments<Options>) => {
           })
           await dnsTest.dnsChecker()
         default:
+          console.error(chalk.red.bold(`Unexpected protocol ${protocol}`))
           break
       }
     } catch (error) {
